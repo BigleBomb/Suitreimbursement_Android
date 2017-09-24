@@ -1,0 +1,32 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.ocaaa.reimburseproject.Fragment.CategoryFragment"
+    android:id="@+id/frameLayout">
+
+    <android.support.v4.widget.SwipeRefreshLayout
+        android:id="@+id/srlReimburse"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/frameLayout">
+
+        <ListView
+            android:id="@+id/lvReimburseDetail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tabLayout" />
+
+    </android.support.v4.widget.SwipeRefreshLayout>
+
+
+    <TextView
+        android:id="@+id/emptyView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:text="@string/emptyReimburseRequest"
+        android:textColor="@color/cardview_dark_background" />
+
+</FrameLayout>

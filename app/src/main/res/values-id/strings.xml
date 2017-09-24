@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">ReimburseProject</string>
+
+    <string name="title_activity_login">Sign in</string>
+
+    <!-- Strings related to login -->
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password</string>
+    <string name="action_sign_in">Sign in</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="permission_rationale">Perijinan akses kontak dibutuhkan untuk isian email otomatis.</string>
+
+    <string name="emptyReimburseRequest">Anda tidak memiliki permintaan reimburse.</string>
+    <string name="emptyReimburseRequestCategory">Anda tidak memiliki permintaan reimburse pada kategori ini.</string>
+    <string name="emptyProject">Anda tidak memiliki proyek.</string>
+
+    <string name="menu_logout">Keluar</string>
+    <string name="menu_settings">Pengaturan</string>
+
+    <string name="categoryTransportation">Transportasi</string>
+    <string name="categoryConsumption">Konsumsi</string>
+    <string name="categoryAccommodation">Akomodasi</string>
+
+    <string name="logout_msg">Anda yakin akan keluar?</string>
+    <string name="submit_reimburse_msg">Mengirimkan permintaan anda ke server, mohon tunggu…</string>
+    <string name="fetch_reimburse_msg">Mengambil daftar permintaan anda…</string>
+    <string name="fetch_project_msg">Mengambil daftar proyek anda…</string>
+    <string name="empty_cost_msg">Isi biaya reimburse.</string>
+    <string name="empty_date_msg">Isi tanggal.</string>
+    <string name="empty_details_msg">Isi keterangan.</string>
+    <string name="empty_file_msg">Masukkan bukti struk.</string>
+
+
+    <!--ERROR MESSAGES-->
+    <string name="error_invalid_email">Email ini salah.</string>
+    <string name="error_invalid_password">Kata sandi terlalu pendek.</string>
+    <string name="error_incorrect_password">Kata sandi salah.</string>
+    <string name="error_field_required">Kolom ini tidak boleh kosong.</string>
+
+    <string name="error_msg_fetch_reimburse">Gagal mengambil daftar permintaan anda. Tolong periksa koneksi anda.</string>
+    <string name="error_msg_fetch_project">Gagal mengambil daftar proyek anda. Tolong periksa koneksi anda.</string>
+    <string name="error_msg_login_fail_connection">Gagal masuk kedalam server. Tolong periksa koneksi anda.</string>
+
+    <string name="total_cost_label">Jumlah pengeluaran</string>
+    <string name="choose_attachment_label">Pilih file</string>
+    <string name="attachment_label">Struk</string>
+    <string name="date_label">Tanggal</string>
+    <string name="detail_label">Keterangan</string>
+    <string name="cost_label">Pengeluaran</string>
+    <string name="category_label">Kategori</string>
+    <string name="status_label">Status</string>
+</resources>

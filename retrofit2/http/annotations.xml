@@ -1,0 +1,5 @@
+<root>
+    <item project_name='retrofit2.http.POST'>
+        <annotation project_name='java.lang.Deprecated' />
+    </item>
+</root>

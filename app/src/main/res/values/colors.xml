@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#F44336</color>
+    <color name="colorPrimaryDark">#D32F2F</color>
+    <color name="colorAccent">#FF5722</color>
+    <color name="colorPrimaryLight">#FFCDD2</color>
+    <color name="textPrimary">#212121</color>
+    <color name="textSecondary">#757575</color>
+    <color name="colorDivider">#BDBDBD</color>
+    <color name="white">#FFFFFF</color>
+    <color name="color_grey">#A9A9A9</color>
+    <color name="statusPending">#ffa726</color>
+    <color name="statusAccepted">#43a047</color>
+    <color name="statusRejected">#e53935</color>
+    <color name="Transportasi">#007ff0</color>
+    <color name="Akomodasi">#9f00db</color>
+    <color name="Konsumsi">#ff8b00</color>
+    <color name="color_green">#43a047</color>
+</resources>
